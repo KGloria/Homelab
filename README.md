@@ -17,10 +17,18 @@ Rosewill RD-Z 400 W 80+ Certified ATX Power Supply
 
 ## Webserver
 Node.js, Express
-> I decided to try hosting my own version of my React Application on my home server. I learned quite a bit on what it takes to actaully run a webserver. The webserver is not tied to a Domain name due to my ISP only providing static public IP addresses to bussiness accounts, but managed to still have it accessable by searching for the IP and Port (http://XX.XX.XXX.XX:Port).
+> I decided to try hosting my own version of my React Application on my home server. I learned quite a bit on what it takes to actaully run a webserver. The webserver is not tied to a Domain name due to my ISP only providing static public IP addresses to bussiness accounts and port 80 for http is blocked. I managed to still have it accessable by searching for the IP and Port (http://XX.XX.XXX.XX:Port).
 
-## Dedicated Minecraft Server
-JAVA
+## Minecraft Server
+java -Xmx1024M -Xms1024M -jar minecraft_server.1.15.2.jar nogui
+
+> Wanted to also create a dedicated Minecraft server for my friends and I to play on. This project taught me a lot about port security, patch maintainence, and scripting. In the end I decided I needed more knowledge of the subject and decided to start studying for a CompTIA Sec+ certification.
 
 ## Media Server
 PLEX
+
+> Home Media server using plex. Future upgrades include better specs so it can stream 4k videos.
+
+## Future Ideas
+  - Crypto miner
+  - Web Crawler
